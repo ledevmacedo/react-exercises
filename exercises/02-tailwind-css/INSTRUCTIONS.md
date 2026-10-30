@@ -13,7 +13,7 @@ O primeiro passo do tutorial (criar o projeto Vite) **não deve ser seguido**, p
 1. Aceder ao [tutorial oficial do Tailwind para Vite](https://tailwindcss.com/docs/installation/using-vite).
 2. Instalar o Tailwind CSS com `npm install tailwindcss @tailwindcss/vite`.
 3. Configurar o plugin do Tailwind em `vite.config.ts`.
-4. Adicionar o `@import` do Tailwind no `main.css` preparado no exercício anterior.
+4. Adicionar o `@import` do Tailwind no `index.css` preparado no exercício anterior.
 5. Testar que o Tailwind funciona usando uma utility-class em uma `div`, por exemplo `bg-red-500`.
 
 ## Resultado esperado
