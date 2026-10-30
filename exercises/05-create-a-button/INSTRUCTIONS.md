@@ -12,7 +12,7 @@ Os exercícios anteriores já foram concluídos, portanto a estrutura do projeto
 
 1. Criar o arquivo do componente de botão seguindo o padrão `Camel Case` dentro da pasta `components`.
 2. Declarar a função que cria o componente com `Pascal Case`.
-3. Criar a interface do componente. A prop `variant` pode ser declarada no `types.d.ts` (exercício anterior) e reutilizada aqui, aceitando os valores: `warning`, `danger`, `info`, `success`.
+3. Criar um `type` (literal union) `ButtonVariant` com os valores: `warning`, `danger`, `info`, `success`. Criar a interface `ButtonProps` (individual props) com a prop `variant: ButtonVariant`. A prop `variant` pode ser declarada no `types.d.ts` (exercício anterior) e reutilizada aqui.
 4. Estilizar o botão com Tailwind, alterando a cor conforme a `variant` (de forma simples, sem bibliotecas externas).
 5. Importar o componente na `App.tsx` e testar as 4 variantes.
 
